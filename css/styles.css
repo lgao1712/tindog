@@ -1,0 +1,172 @@
+/* Global Declarations */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+/* Headings*/
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.sectional-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Section Colours */
+.coloured-section  {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title Section - Container */
+#title .container-fluid{
+  padding: 3% 15%;
+  text-align: left;
+}
+
+/* Title Section - Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Title Section - Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section - Title Image */
+
+.title-dog {
+  transform: rotate(25deg);
+  width: 60%;
+  padding-right: 0;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.fa-check-circle, .fa-bullseye, .fa-heart {
+  /*can also rename into arbitrary "icon" class and use "icon:hover" etc. */
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.usp-text {
+  color: #8f8f8f;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.card-price {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-header {
+    font-size: 1.5rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer */
+
+.footer-icon {
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: grey;
+}
