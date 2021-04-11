@@ -1,4 +1,4 @@
-TinDog Starting Files
+Create a responsive Tinder website for dogs!
 
 Uses Bootstrap 4.0
 
